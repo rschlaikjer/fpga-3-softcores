@@ -1,0 +1,10 @@
+CAPI=2:
+filesets:
+  rtl:
+    files:
+    - wb_intercon.v: {file_type: verilogSource}
+    - wb_intercon.vh: {file_type: verilogSource, is_include_file: true}
+name: ::soc_wb
+targets:
+  default:
+    filesets: [rtl]

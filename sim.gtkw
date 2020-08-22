@@ -1,0 +1,164 @@
+[*]
+[*] GTKWave Analyzer v3.3.98 (w)1999-2019 BSI
+[*] Sun Aug 23 15:38:18 2020
+[*]
+[dumpfile] "/home/ross/NetProgramming/Github/fpga-swe-3-soc/build/sim_out.vcd"
+[dumpfile_mtime] "Sun Aug 23 00:33:13 2020"
+[dumpfile_size] 173603443
+[savefile] "/home/ross/NetProgramming/Github/fpga-swe-3-soc/sim.gtkw"
+[timestart] 66650
+[size] 2646 1594
+[pos] -1 -1
+*-11.000000 69130 6487140 6465940 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.top.
+[sst_width] 502
+[signals_width] 722
+[sst_expanded] 1
+[sst_vpaned_height] 594
+@28
+TOP.top.wb_clk
+TOP.top.reset
+@200
+-
+@22
+TOP.top.cpu0.execute_PC[31:0]
+TOP.top.cpu0.CsrPlugin_mcycle[63:0]
+@28
+TOP.top.cpu0.CsrPlugin_exception
+@22
+TOP.top.cpu0.CsrPlugin_mcause_exceptionCode[3:0]
+TOP.top.cpu0.CsrPlugin_mtvec_base[29:0]
+@28
+TOP.top.cpu0.CsrPlugin_mtvec_mode[1:0]
+TOP.top.cpu0.CsrPlugin_mie_MTIE
+TOP.top.cpu0.CsrPlugin_mstatus_MIE
+@200
+-
+@22
+TOP.top.wb_m2s_cpu0_ibus_adr[31:0]
+TOP.top.wb_m2s_cpu0_ibus_dat[31:0]
+TOP.top.wb_m2s_cpu0_ibus_sel[3:0]
+@28
+TOP.top.wb_m2s_cpu0_ibus_we
+TOP.top.wb_m2s_cpu0_ibus_cyc
+TOP.top.wb_m2s_cpu0_ibus_stb
+@22
+TOP.top.wb_s2m_cpu0_ibus_dat[31:0]
+@28
+TOP.top.wb_s2m_cpu0_ibus_ack
+@200
+-
+@22
+TOP.top.wb_m2s_cpu0_dbus_adr[31:0]
+TOP.top.wb_m2s_cpu0_dbus_dat[31:0]
+TOP.top.wb_m2s_cpu0_dbus_sel[3:0]
+@28
+TOP.top.wb_m2s_cpu0_dbus_we
+TOP.top.wb_m2s_cpu0_dbus_cyc
+TOP.top.wb_m2s_cpu0_dbus_stb
+@22
+TOP.top.wb_s2m_cpu0_dbus_dat[31:0]
+@28
+TOP.top.wb_s2m_cpu0_dbus_ack
+@200
+-
+@22
+TOP.top.wb_m2s_timer0_adr[31:0]
+TOP.top.wb_m2s_timer0_dat[31:0]
+TOP.top.wb_m2s_timer0_sel[3:0]
+@28
+TOP.top.wb_m2s_timer0_we
+TOP.top.wb_m2s_timer0_cyc
+TOP.top.wb_m2s_timer0_stb
+@22
+TOP.top.wb_s2m_timer0_dat[31:0]
+@28
+TOP.top.wb_s2m_timer0_ack
+TOP.top.timer_interrupt
+@200
+-
+@22
+TOP.top.timer0.downcounter[31:0]
+TOP.top.timer0.prescaler[31:0]
+@200
+-
+@22
+TOP.top.wb_m2s_uart0_adr[31:0]
+TOP.top.wb_m2s_uart0_dat[31:0]
+TOP.top.wb_m2s_uart0_sel[3:0]
+@28
+TOP.top.wb_m2s_uart0_we
+TOP.top.wb_m2s_uart0_cyc
+TOP.top.wb_m2s_uart0_stb
+@22
+TOP.top.wb_s2m_uart0_dat[31:0]
+@28
+TOP.top.wb_s2m_uart0_ack
+TOP.top.MCU_UART_TX
+TOP.top.MCU_UART_RX
+@200
+-
+@22
+TOP.top.wb_m2s_led0_adr[31:0]
+TOP.top.wb_m2s_led0_dat[31:0]
+TOP.top.wb_m2s_led0_sel[3:0]
+@28
+TOP.top.wb_m2s_led0_we
+TOP.top.wb_m2s_led0_cyc
+TOP.top.wb_m2s_led0_stb
+@22
+TOP.top.wb_s2m_led0_dat[31:0]
+@28
+TOP.top.wb_s2m_led0_ack
+@200
+-
+@22
+TOP.top.led0.ocr_b[7:0]
+TOP.top.led0.ocr_g[7:0]
+TOP.top.led0.ocr_r[7:0]
+@200
+-
+@22
+TOP.top.cpu0.execute_PC[31:0]
+TOP.top.wb_m2s_cpu0_dbus_adr[31:0]
+@28
+TOP.top.wb_m2s_cpu0_dbus_we
+TOP.top.wb_s2m_cpu0_dbus_ack
+TOP.top.cpu0.IBusCachedPlugin_jump_pcLoad_valid
+@22
+TOP.top.cpu0.IBusCachedPlugin_jump_pcLoad_payload[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(0)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(1)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(2)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(3)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(4)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(5)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(6)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(7)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(8)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(9)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(10)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(11)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(12)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(13)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(14)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(15)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(16)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(17)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(18)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(19)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(20)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(21)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(22)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(23)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(24)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(25)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(26)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(27)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(28)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(29)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(30)[31:0]
+TOP.top.cpu0.RegFilePlugin_regFile(31)[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

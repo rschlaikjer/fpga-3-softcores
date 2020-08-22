@@ -1,0 +1,6 @@
+[submodule "vendor/wb_intercon"]
+	path = vendor/wb_intercon
+	url = https://github.com/olofk/wb_intercon.git
+[submodule "vendor/verilog-arbiter"]
+	path = vendor/verilog-arbiter
+	url = https://github.com/bmartini/verilog-arbiter.git

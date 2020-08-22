@@ -1,0 +1,130 @@
+# 12 MHz clock
+set_io CLK_12MHZ     21
+
+# RGB led
+set_io LED[0]        85
+set_io LED[1]        84
+set_io LED[2]        83
+
+# SPI connection to flash chip
+set_io FLASH_SPI_CS   71
+set_io FLASH_SPI_SCK  70
+set_io FLASH_SPI_MISO 68
+set_io FLASH_SPI_MOSI 67
+
+# SPI connection to microcontroller
+set_io MCU_SPI_CS   73
+set_io MCU_SPI_SCK  74
+set_io MCU_SPI_MISO 75
+set_io MCU_SPI_MOSI 76
+
+# UART connection to microcontroller
+# Note that these names are from the point of view of the MCU.
+# The FPGA should TRANSMIT on MCU_RX, and RECEIVE on MCU_TX
+set_io MCU_UART_RX 81
+set_io MCU_UART_TX 82
+
+### PMODs
+
+# A1
+# Note that A1[3] and A1[6] map to the slice X16/Y0/io1, which is the same block
+# that houses the PLL on this device. If these pins reqyire tri-state support,
+# it will cause the PLL to fail to constrain.
+set_io PMOD_A1[0]   61
+set_io PMOD_A1[1]   56
+set_io PMOD_A1[2]   52
+set_io PMOD_A1[3]   48
+set_io PMOD_A1[4]   60
+set_io PMOD_A1[5]   55
+set_io PMOD_A1[6]   49
+set_io PMOD_A1[7]   47
+
+# A2
+set_io PMOD_A2[0]   45
+set_io PMOD_A2[1]   43
+set_io PMOD_A2[2]   41
+set_io PMOD_A2[3]   38
+set_io PMOD_A2[4]   44
+set_io PMOD_A2[5]   42
+set_io PMOD_A2[6]   39
+set_io PMOD_A2[7]   37
+
+# A3
+set_io PMOD_A3[0]   31
+set_io PMOD_A3[1]   28
+set_io PMOD_A3[2]   25
+set_io PMOD_A3[3]   23
+set_io PMOD_A3[4]   29
+set_io PMOD_A3[5]   26
+set_io PMOD_A3[6]   24
+set_io PMOD_A3[7]   22
+
+# A4
+set_io PMOD_A4[0]   20
+set_io PMOD_A4[1]   18
+set_io PMOD_A4[2]   16
+set_io PMOD_A4[3]   12
+set_io PMOD_A4[4]   19
+set_io PMOD_A4[5]   17
+set_io PMOD_A4[6]   15
+set_io PMOD_A4[7]   11
+
+# B1
+set_io PMOD_B1[0]   97
+set_io PMOD_B1[1]   95
+set_io PMOD_B1[2]   93
+set_io PMOD_B1[3]   90
+set_io PMOD_B1[4]   96
+set_io PMOD_B1[5]   94
+set_io PMOD_B1[6]   91
+set_io PMOD_B1[7]   88
+
+# B2
+set_io PMOD_B2[0]   107
+set_io PMOD_B2[1]   105
+set_io PMOD_B2[2]   102
+set_io PMOD_B2[3]   99
+set_io PMOD_B2[4]   106
+set_io PMOD_B2[5]   104
+set_io PMOD_B2[6]   101
+set_io PMOD_B2[7]   98
+
+# B3
+set_io PMOD_B3[0]   121
+set_io PMOD_B3[1]   119
+set_io PMOD_B3[2]   117
+set_io PMOD_B3[3]   115
+set_io PMOD_B3[4]   120
+set_io PMOD_B3[5]   118
+set_io PMOD_B3[6]   116
+set_io PMOD_B3[7]   114
+
+# B4
+set_io PMOD_B4[0]   135
+set_io PMOD_B4[1]   130
+set_io PMOD_B4[2]   128
+set_io PMOD_B4[3]   124
+set_io PMOD_B4[4]   134
+set_io PMOD_B4[5]   129
+set_io PMOD_B4[6]   125
+set_io PMOD_B4[7]   122
+
+# C1
+set_io PMOD_C1[0]   10
+set_io PMOD_C1[1]   8
+set_io PMOD_C1[2]   4
+set_io PMOD_C1[3]   2
+set_io PMOD_C1[4]   9
+set_io PMOD_C1[5]   7
+set_io PMOD_C1[6]   3
+set_io PMOD_C1[7]   1
+
+# C2
+set_io PMOD_C2[0]   144
+set_io PMOD_C2[1]   142
+set_io PMOD_C2[2]   139
+set_io PMOD_C2[3]   137
+set_io PMOD_C2[4]   143
+set_io PMOD_C2[5]   141
+set_io PMOD_C2[6]   138
+set_io PMOD_C2[7]   136

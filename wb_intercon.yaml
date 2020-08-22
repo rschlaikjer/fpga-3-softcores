@@ -1,0 +1,33 @@
+vlnv: ::soc_wb
+files_root: blah
+parameters:
+  masters:
+    cpu0_ibus:
+      slaves: [cpu0_rom]
+
+    cpu0_dbus:
+      slaves: [cpu0_rom, cpu0_ram,
+               timer0,
+               uart0,
+               led0]
+
+  slaves:
+    timer0:
+      offset: 0x40000000
+      size:   0x1000
+
+    uart0:
+      offset: 0x40001000
+      size:   0x1000
+
+    led0:
+      offset: 0x40002000
+      size:   0x1000
+
+    cpu0_rom:
+      offset: 0x20000000
+      size:   0x1000
+
+    cpu0_ram:
+      offset: 0x80000000
+      size:   0x800
